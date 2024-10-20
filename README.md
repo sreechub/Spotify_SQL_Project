@@ -184,7 +184,7 @@ The dataset contains attributes such as:
     ORDER BY 2 DESC
     ```
 ## Technology Stack
-   **Database:** PostgreSQL
-   **SQL Queries:** DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-   **Tools:** pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+   1. **Database:** PostgreSQL
+   2. **SQL Queries:** DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+   3. **Tools:** pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
    
