@@ -7,8 +7,9 @@
 ## Overview 
 This project entails exploring a comprehensive Spotify dataset, encompassing diverse attributes related to tracks, albums, and artists, using **SQL**. The scope includes transforming a denormalized dataset into a normalized structure, executing SQL queries spanning multiple complexity levels (introductory, intermediate, and advanced), and enhancing query efficiency. Ultimately, the project aims to hone advanced SQL proficiency and uncover meaningful insights from the dataset.
 
-**Creating a table 'spotify'**
 
+
+**Creating a table 'spotify'**
 ```sql
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
