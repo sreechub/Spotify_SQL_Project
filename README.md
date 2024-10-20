@@ -1,1 +1,1 @@
-# Spotify_SQL_Project
+# Spotify Songs Data Analysis using SQL
