@@ -37,9 +37,8 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
-## Project Steps
 
-### 1. Data Exploration
+
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 - `Artist`: The performer of the track.
 - `Track`: The name of the song.
@@ -47,23 +46,9 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 - `Album_type`: The type of album (e.g., single or album).
 - Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
 
-### 4. Querying the Data
-After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into **easy**, **medium**, and **advanced** levels to help progressively develop SQL proficiency.
+After the data is inserted, various SQL queries can be written to explore and analyze the data. 
 
-#### Easy Queries
-- Simple data retrieval, filtering, and basic aggregations.
-  
-#### Medium Queries
-- More complex queries involving grouping, aggregation functions, and joins.
-  
-#### Advanced Queries
-- Nested subqueries, window functions, CTEs, and performance optimization.
 
-### 5. Query Optimization
-In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
-- **Indexing**: Adding indexes on frequently queried columns.
-- **Query Execution Plan**: Using `EXPLAIN ANALYZE` to review and refine query performance.
-  
 ---
 ## Analytical Questions
 
@@ -197,5 +182,8 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
     FROM cte
     ORDER BY 2 DESC
     ```
-
+## Technology Stack
+   **Database:** PostgreSQL
+   **SQL Queries:** DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+   **Tools:** pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
    
